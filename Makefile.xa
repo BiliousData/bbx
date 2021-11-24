@@ -1,0 +1,15 @@
+all: \
+  iso/music/menu.xa \
+  iso/music/boba.xa \
+  iso/music/bobb.xa 
+
+# XA converts
+iso/music/%.xa: iso/music/%.mp3
+	tools/psxavenc/psxavenc -f 37800 -t xa -b 4 -c 2 -F 1 -C 0 $< $@
+iso/music/%.xa:
+	tools/xainterleave/xainterleave $@
+
+# XA interleaves
+iso/music/menu.xa: iso/music/freaky.xa iso/music/gameover.xa
+iso/music/boba.xa: iso/music/jumpinv.xa iso/music/jumpini.xa iso/music/swingv.xa iso/music/swingi.xa
+iso/music/bobb.xa: iso/music/splitv.xa iso/music/spliti.xa iso/music/tutorialv.xa iso/music/tutoriali.xa

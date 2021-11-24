@@ -1,0 +1,4 @@
+1 xa jumpinexv.xa 1 0
+1 xa jumpinexi.xa 1 1
+1 xa swingexv.xa 1 2
+1 xa swingexi.xa 1 3
