@@ -66,6 +66,7 @@ static const u8 note_anims[4][3] = {
 #include "character/gf.h"
 #include "character/gfweeb.h"
 #include "character/clucky.h"
+#include "character/bobe.h"
 
 #include "stage/dummy.h"
 #include "stage/week1.h"

@@ -110,6 +110,9 @@
 				
 				<!-- Clucky assets -->
 				<file name = "clucky.arc" type = "data" source = "iso/clucky/main.arc"/>
+
+				<!-- Bob & Bosip -->
+				<file name = "bobe.arc" type = "data" source = "iso/bobe/main.arc"/>
 			</dir>
 			
 			<!-- Music -->

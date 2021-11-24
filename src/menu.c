@@ -677,7 +677,7 @@ void Menu_Tick(void)
 			} menu_options[] = {
 				{NULL, StageId_1_4, "TUTORIAL", {"TUTORIAL", NULL, NULL}},
 				{"1", StageId_1_1, "BOB AND BOSIP", {"JUMP IN", "SWING", "SPLIT", NULL}},
-				{"2", StageId_1_1, "IN THE BACKGROUND", {"I DUNNO", "WHAT THE", "SONGS ARE", "LOL"}},
+				{"2", StageId_1_1, "IN THE BACKGROUND", {"GROOVY BRASS", "WHAT THE", "SONGS ARE", "LOL"}},
 				{"3", StageId_1_1, "BOB TAKEOVER", {"COPYCAT", "JUMP OUT", "RONALD MCDONALD SLIDE", NULL}},
 			};
 			
@@ -1272,10 +1272,10 @@ void Menu_Tick(void)
 				const char *text;
 			} menu_options[] = {
 				//{StageId_4_4, 0xFFFC96D7, "TEST"},
-				{StageId_1_4, 0xFF9271FD, "I DUNNO"},
-				{StageId_1_1, 0xFF9271FD, "WHAT THE"},
-				{StageId_1_2, 0xFF9271FD, "SONGS ARE"},
-				{StageId_1_3, 0xFF9271FD, "LOL"},
+				{StageId_1_4, 0xFF9271FD, "GROOVY BRASS"},
+				{StageId_1_1, 0xFF9271FD, "CONSCIENCE"},
+				{StageId_1_2, 0xFF9271FD, "YAP SQUAD"},
+				{StageId_1_3, 0xFF9271FD, "INTERTWINED"},
 			};
 			
 			//Initialize page
