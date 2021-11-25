@@ -802,10 +802,10 @@ void Menu_Tick(void)
 				const char *text;
 			} menu_options[] = {
 				//{StageId_4_4, 0xFFFC96D7, "TEST"},
-				{StageId_1_4, 0xFF9271FD, "TUTORIAL"},
-				{StageId_1_1, 0xFF9271FD, "JUMP IN"},
-				{StageId_1_2, 0xFF9271FD, "SWING"},
-				{StageId_1_3, 0xFF9271FD, "SPLIT"},
+				{StageId_1_4, 0xA5004D, "TUTORIAL"},
+				{StageId_1_1, 0x4174FF, "JUMP IN"},
+				{StageId_1_2, 0xF3E41C, "SWING"},
+				{StageId_1_3, 0x333AC6, "SPLIT"},
 			};
 			
 			//Initialize page

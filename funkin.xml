@@ -136,6 +136,7 @@
 
 				<!-- Bob & Bosip -->
 				<file name = "bobe.arc" type = "data" source = "iso/bobe/main.arc"/>
+				<file name = "bosip.arc" type = "data" source = "iso/bosip/main.arc"/>
 			</dir>
 			
 			<!-- Music -->

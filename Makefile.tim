@@ -35,6 +35,7 @@ all: \
 	iso/gf/speaker.tim \
 	iso/clucky/main.arc \
 	iso/bobe/main.arc \
+	iso/bosip/main.arc \
 	iso/week1/back.arc \
 	iso/week2/back.arc \
 	iso/week3/back.arc \
@@ -99,6 +100,9 @@ iso/clucky/main.arc: iso/clucky/idle0.tim iso/clucky/idle1.tim iso/clucky/left.t
 
 # Bob Enemy
 iso/bobe/main.arc: iso/bobe/idle.tim iso/bobe/hit.tim iso/bobe/up.tim iso/bobe/right.tim iso/bobe/left.tim
+
+# Bosip
+iso/bosip/main.arc: iso/bosip/idle.tim iso/bosip/hit0.tim iso/bosip/hit1.tim iso/bosip/hit2.tim iso/bosip/up.tim
 
 # Week 1
 iso/week1/back.arc: iso/week1/back0.tim iso/week1/back1.tim

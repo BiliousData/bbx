@@ -67,6 +67,7 @@ static const u8 note_anims[4][3] = {
 #include "character/gfweeb.h"
 #include "character/clucky.h"
 #include "character/bobe.h"
+#include "character/bosip.h"
 
 #include "stage/dummy.h"
 #include "stage/week1.h"
@@ -1910,23 +1911,6 @@ void Stage_Tick(void)
 			//Hardcoded stage stuff
 			switch (stage.stage_id)
 			{
-				case StageId_1_2: //Fresh GF bop
-					switch (stage.song_step)
-					{
-						case 16 << 2:
-							stage.gf_speed = 2 << 2;
-							break;
-						case 48 << 2:
-							stage.gf_speed = 1 << 2;
-							break;
-						case 80 << 2:
-							stage.gf_speed = 2 << 2;
-							break;
-						case 112 << 2:
-							stage.gf_speed = 1 << 2;
-							break;
-					}
-					break;
 				default:
 					break;
 			}
