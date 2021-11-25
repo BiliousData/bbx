@@ -677,7 +677,7 @@ void Menu_Tick(void)
 			} menu_options[] = {
 				{NULL, StageId_1_4, "TUTORIAL", {"TUTORIAL", NULL, NULL}},
 				{"1", StageId_1_1, "BOB AND BOSIP", {"JUMP IN", "SWING", "SPLIT", NULL}},
-				{"2", StageId_1_1, "IN THE BACKGROUND", {"GROOVY BRASS", "WHAT THE", "SONGS ARE", "LOL"}},
+				{"2", StageId_2_1, "IN THE BACKGROUND", {"GROOVY BRASS", "CONSCIENCE", "YAP SQUAD", "INTERTWINED"}},
 				{"3", StageId_1_1, "BOB TAKEOVER", {"COPYCAT", "JUMP OUT", "RONALD MCDONALD SLIDE", NULL}},
 			};
 			
@@ -915,9 +915,9 @@ void Menu_Tick(void)
 				const char *text;
 				boolean difficulty;
 			} menu_options[] = {
-				{StageId_Kapi_1, "VS KAPI", false},
-				{StageId_Clwn_1, "VS TRICKY", true},
-				{StageId_Clwn_4, "   EXPURGATION", false},
+				{StageId_1_1, "VS KAPI", false},
+				{StageId_1_1, "VS TRICKY", true},
+				{StageId_1_4, "   EXPURGATION", false},
 				{StageId_2_4,    "CLUCKED", false},
 			};
 			
@@ -1272,10 +1272,10 @@ void Menu_Tick(void)
 				const char *text;
 			} menu_options[] = {
 				//{StageId_4_4, 0xFFFC96D7, "TEST"},
-				{StageId_1_4, 0xFF9271FD, "GROOVY BRASS"},
-				{StageId_1_1, 0xFF9271FD, "CONSCIENCE"},
-				{StageId_1_2, 0xFF9271FD, "YAP SQUAD"},
-				{StageId_1_3, 0xFF9271FD, "INTERTWINED"},
+				{StageId_2_1, 0xFF9271FD, "GROOVY BRASS"},
+				{StageId_2_2, 0xFF9271FD, "CONSCIENCE"},
+				{StageId_2_3, 0xFF9271FD, "YAP SQUAD"},
+				{StageId_2_4, 0xFF9271FD, "INTERTWINED"},
 			};
 			
 			//Initialize page
@@ -1899,30 +1899,10 @@ void Menu_Tick(void)
 				{true,  StageId_2_1, "SPOOKEEZ"},
 				{true,  StageId_2_2, "SOUTH"},
 				{true,  StageId_2_3, "MONSTER"},
+				{true,  StageId_2_4, "INTERTWINED"},
 				{true,  StageId_3_1, "PICO"},
 				{true,  StageId_3_2, "PHILLY NICE"},
 				{true,  StageId_3_3, "BLAMMED"},
-				{true,  StageId_4_1, "SATIN PANTIES"},
-				{true,  StageId_4_2, "HIGH"},
-				{true,  StageId_4_3, "MILF"},
-				{true,  StageId_5_1, "COCOA"},
-				{true,  StageId_5_2, "EGGNOG"},
-				{true,  StageId_5_3, "WINTER HORRORLAND"},
-				{true,  StageId_6_1, "SENPAI"},
-				{true,  StageId_6_2, "ROSES"},
-				{true,  StageId_6_3, "THORNS"},
-				{true,  StageId_7_1, "UGH"},
-				{true,  StageId_7_2, "GUNS"},
-				{true,  StageId_7_3, "STRESS"},
-				{false, StageId_Kapi_1, "WOCKY"},
-				{false, StageId_Kapi_2, "BEATHOVEN"},
-				{false, StageId_Kapi_3, "HAIRBALL"},
-				{false, StageId_Kapi_4, "NYAW"},
-				{true,  StageId_Clwn_1, "IMPROBABLE OUTSET"},
-				{true,  StageId_Clwn_2, "MADNESS"},
-				{true,  StageId_Clwn_3, "HELLCLOWN"},
-				{false, StageId_Clwn_4, "EXPURGATION"},
-				{false, StageId_2_4, "CLUCKED"},
 			};
 			
 			//Initialize page

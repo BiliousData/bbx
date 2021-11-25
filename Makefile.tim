@@ -11,6 +11,8 @@ all: \
 	iso/stage/hud0sip.tim \
 	iso/stage/hud0amor.tim \
 	iso/stage/hud0gf.tim \
+	iso/stage/hud0sky.tim \
+	iso/stage/hud0shoe.tim \
 	iso/bf/main.arc \
 	iso/bf/dead.arc \
 	iso/bf/weeb.arc \

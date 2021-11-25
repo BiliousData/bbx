@@ -1,7 +1,11 @@
 all: \
   iso/music/menu.xa \
   iso/music/boba.xa \
-  iso/music/bobb.xa 
+  iso/music/bobb.xa \
+  iso/music/backa.xa \
+  iso/music/backb.xa \
+  iso/music/memea.xa \
+  iso/music/memeb.xa 
 
 # XA converts
 iso/music/%.xa: iso/music/%.mp3
@@ -13,3 +17,7 @@ iso/music/%.xa:
 iso/music/menu.xa: iso/music/freaky.xa iso/music/gameover.xa
 iso/music/boba.xa: iso/music/jumpinv.xa iso/music/jumpini.xa iso/music/swingv.xa iso/music/swingi.xa
 iso/music/bobb.xa: iso/music/splitv.xa iso/music/spliti.xa iso/music/tutorialv.xa iso/music/tutoriali.xa
+iso/music/backa.xa: iso/music/groovybrassv.xa iso/music/groovybrassi.xa iso/music/consciencev.xa iso/music/consciencei.xa
+iso/music/backb.xa: iso/music/yapsquadv.xa iso/music/yapsquadi.xa iso/music/intertwinedv.xa iso/music/intertwinedi.xa
+iso/music/memea.xa: iso/music/copycatv.xa iso/music/copycati.xa iso/music/jumpoutv.xa iso/music/jumpouti.xa
+iso/music/memeb.xa: iso/music/ronaldmcdonaldslidev.xa iso/music/ronaldmcdonaldslidei.xa

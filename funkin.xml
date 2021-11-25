@@ -43,6 +43,8 @@
 				<file name = "hud0sip.tim" type = "data" source = "iso/stage/hud0sip.tim"/>
 				<file name = "hud0gf.tim" type = "data" source  = "iso/stage/hud0gf.tim"/>
 				<file name = "hud0amor.tim" type = "data" source  = "iso/stage/hud0amor.tim"/>
+				<file name = "hud0sky.tim" type = "data" source = "iso/stage/hud0sky.tim"/>
+				<file name = "hud0shoe.tim" type = "data" source = "iso/stage/hud0shoe.tim"/>
 			</dir>
 			
 			<!-- Week 1 assets -->
@@ -66,6 +68,27 @@
 				<file name = "1.4e.cht" type = "data" source = "iso/chart/tutorial-easy.json.cht"/>
 				<file name = "1.4n.cht" type = "data" source = "iso/chart/tutorial.json.cht"/>
 				<file name = "1.4h.cht" type = "data" source = "iso/chart/tutorial-hard.json.cht"/>
+			</dir>
+
+			<!-- Week 2 assets -->
+			<dir name = "week2">
+
+			    <!-- Bopeebo charts -->
+				<file name = "2.1e.cht" type = "data" source = "iso/chart/groovy-brass-easy.json.cht"/>
+				<file name = "2.1n.cht" type = "data" source = "iso/chart/groovy-brass.json.cht"/>
+				<file name = "2.1h.cht" type = "data" source = "iso/chart/groovy-brass-hard.json.cht"/>
+				<!-- Fresh charts -->
+				<file name = "2.2e.cht" type = "data" source = "iso/chart/conscience-easy.json.cht"/>
+				<file name = "2.2n.cht" type = "data" source = "iso/chart/conscience.json.cht"/>
+				<file name = "2.2h.cht" type = "data" source = "iso/chart/conscience-hard.json.cht"/>
+				<!-- Dadbattle charts -->
+				<file name = "2.3e.cht" type = "data" source = "iso/chart/yap-squad-easy.json.cht"/>
+				<file name = "2.3n.cht" type = "data" source = "iso/chart/yap-squad.json.cht"/>
+				<file name = "2.3h.cht" type = "data" source = "iso/chart/yap-squad-hard.json.cht"/>
+				<!-- Tutorial charts -->
+				<file name = "2.4e.cht" type = "data" source = "iso/chart/intertwined-easy.json.cht"/>
+				<file name = "2.4n.cht" type = "data" source = "iso/chart/intertwined.json.cht"/>
+				<file name = "2.4h.cht" type = "data" source = "iso/chart/intertwined-hard.json.cht"/>
 			</dir>
 			
 			<!-- Character assets -->
@@ -122,6 +145,14 @@
 				<file name = "boba.xa" type = "xa" source = "iso/music/boba.xa"/>
 				<dummy sectors="128"/>
 				<file name = "bobb.xa" type = "xa" source = "iso/music/bobb.xa"/>
+				<dummy sectors="128"/>
+				<file name = "backa.xa" type = "xa" source = "iso/music/backa.xa"/>
+				<dummy sectors="128"/>
+				<file name = "backb.xa" type = "xa" source = "iso/music/backb.xa"/>
+				<dummy sectors="128"/>
+				<file name = "memea.xa" type = "xa" source = "iso/music/memea.xa"/>
+				<dummy sectors="128"/>
+				<file name = "memeb.xa" type = "xa" source = "iso/music/memeb.xa"/>
 				<dummy sectors="128"/>
 			</dir>
 			

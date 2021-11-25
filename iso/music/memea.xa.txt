@@ -1,0 +1,4 @@
+1 xa copycatv.xa 1 0
+1 xa copycati.xa 1 1
+1 xa jumpoutv.xa 1 2
+1 xa jumpouti.xa 1 3

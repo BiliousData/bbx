@@ -14,12 +14,23 @@ static const XA_TrackDef xa_tracks[] = {
 	{XA_BobA, XA_LENGTH(13400)}, //XA_Swing
 	{XA_BobB, XA_LENGTH(15200)}, //XA_Split
 	{XA_BobB, XA_LENGTH(60900)}, //XA_Tutorial
+	{XA_BackA, XA_LENGTH(9200)}, //XA_GroovyBrass
+	{XA_BackA, XA_LENGTH(9100)}, //XA_Conscience
+	{XA_BackB, XA_LENGTH(14900)}, //XA_YapSquad
+	{XA_BackB, XA_LENGTH(14600)}, //XA_Intertwined
+	{XA_MemeA, XA_LENGTH(14600)}, //XA_CopyCat
+	{XA_MemeA, XA_LENGTH(16500)}, //XA_JumpOut
+	{XA_MemeB, XA_LENGTH(20100)}, //XA_RonaldMcDonaldSlide
 };
 
 static const char *xa_paths[] = {
 	"\\MUSIC\\MENU.XA;1",   //XA_MENU
 	"\\MUSIC\\BOBA.XA;1",   //XA_BOBA
 	"\\MUSIC\\BOBB.XA;1",   //XA_BOBB
+	"\\MUSIC\\BACKA.XA;1",
+	"\\MUSIC\\BACKB.XA;1",
+	"\\MUSIC\\MEMEA.XA;1",
+	"\\MUSIC\\MEMEB.XA;1",
 	NULL,
 };
 
@@ -39,6 +50,17 @@ static const XA_Mp3 xa_mp3s[] = {
 	//BOBB.XA
 	{"split", true},
 	{"tutorial", true},
+	//BACKA.XA
+	{"groovybrass", true},
+	{"conscience", true},
+	//BACKB.XA
+	{"yapsquad", true},
+	{"intertwined", true},
+	//MEMEA.XA
+	{"copycat", true},
+	{"jumpout", true},
+	//MEMEB.XA
+	{"ronaldmcdonaldslide", true},
 	
 	{NULL, false}
 };

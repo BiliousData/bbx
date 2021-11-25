@@ -15,6 +15,10 @@ typedef enum
 	XA_Menu,   //MENU.XA
 	XA_BobA,
 	XA_BobB,
+	XA_BackA,
+	XA_BackB,
+	XA_MemeA,
+	XA_MemeB,
 	
 	XA_Max,
 } XA_File;
@@ -30,7 +34,17 @@ typedef enum
 	//BOBB.XA
 	XA_Split,
 	XA_Tutorial,
-
+	//BACKA.XA
+	XA_GroovyBrass,
+	XA_Conscience,
+	//BACKB.XA
+	XA_YapSquad,
+	XA_Intertwined,
+	//MEMEA.XA
+	XA_CopyCat,
+	XA_JumpOut,
+	//MEMEB.XA
+	XA_RonaldMcDonaldSlide,
 	
 	XA_TrackMax,
 } XA_Track;

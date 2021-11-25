@@ -232,7 +232,7 @@ Character *Char_Tank_New(fixed_t x, fixed_t y)
 	//Load scene art
 	switch (stage.stage_id)
 	{
-		case StageId_7_1: //Ugh
+		case StageId_1_1: //Ugh
 		{
 			//Load "Ugh" art
 			this->arc_scene = IO_Read("\\CHAR\\TANKUGH.ARC;1");
@@ -247,7 +247,7 @@ Character *Char_Tank_New(fixed_t x, fixed_t y)
 				*arc_ptr++ = Archive_Find(this->arc_scene, *pathp);
 			break;
 		}
-		case StageId_7_3: //Stress
+		case StageId_1_3: //Stress
 		{
 			//Load "Heh, pretty good!" art
 			this->arc_scene = IO_Read("\\CHAR\\TANKGOOD.ARC;1");
