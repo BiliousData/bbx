@@ -827,7 +827,7 @@ static void Stage_DrawNotes(void)
 				break;
 			
 			//Draw note
-			if ((note->type & NOTE_FLAG_SUSTAIN) && NOTE_FLAG_OPPONENT)
+			if (note->type & NOTE_FLAG_SUSTAIN && note->type & NOTE_FLAG_OPPONENT)
 			{
 				//Check for sustain clipping
 				fixed_t clip;
@@ -844,7 +844,7 @@ static void Stage_DrawNotes(void)
 				}
 				
 				//Draw sustain
-				if ((note->type & NOTE_FLAG_SUSTAIN_END) && NOTE_FLAG_OPPONENT)
+				if (note->type & NOTE_FLAG_SUSTAIN_END && note->type & NOTE_FLAG_OPPONENT)
 				{
 					if (clip < (24 << FIXED_SHIFT))
 					{
